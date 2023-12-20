@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-cezhfh
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-xtxu-tenant/jvm-build-suite-application-exen/jvm-build-suite-component-cezhfh@sha256:6d3f005e676731872a75e7923fb8f7d8aaf7af2d86861a9984a01d2f15a8fd5e
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
